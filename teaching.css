@@ -1,20 +1,33 @@
 
+h3
+{
+  text-transform : uppercase;
+
+}
+
 h4
 {
   width:100%;
   border-bottom: 1px solid gray;
 }
 
-
 p
 {
+  margin-left: 10px;
   text-align: justify;
 } 
 
-img
+img.center
 {
   display: block;
   margin: 0 auto;
+}
+
+div.legend
+{
+  color: gray;
+  font-style: italic;
+  text-align: center;
 }
 
 span.cite_source
@@ -30,6 +43,7 @@ div.aid
 {
     padding: 0.2em;
     background-color: lightgray;
+    padding-left: 10px;
     border: 1px dashed blacK;
 }
 
@@ -50,6 +64,4 @@ span.view_aid
     color: red;
 }
 
-
-table.wikitable th,table.wikitable td{padding:0.3em}.wikitable th[scope=row]{text-align:left}table.gauche,table.left{float:left;margin:0 1em 1em 0}table.droite,table.right{float:right;margin:0 0 1em 1em}table.centre,table.center{margin:1em auto}table.wikitable[align=center]{margin:1em auto}
 
