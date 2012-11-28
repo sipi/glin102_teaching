@@ -99,16 +99,6 @@
       <li><a href="http://fr.wikipedia.org/wiki/Style_d%27indentation" target="_blank">Indenter</a> votre code</li>
       <li>Sépartion fond (HTML) / forme (CSS) <!-- @todo link needed --></li>
   </ul>
-  
-  
-  <h4>Ressources diverses</h4>
-    <ul>
-      <li><a href="http://www.siteduzero.com/tutoriel-3-13666-apprenez-a-creer-votre-site-web-avec-html5-et-css3.html" target="_blank">www.siteduzero.com</a></li>
-      <li><a href="http://www.w3schools.com/" target="_blank">www.w3schools.com</a></li>
-      <li><a href="http://xhtml.developpez.com/cours/" target="_blank">xhtml.developpez.com/cours/</a></li>
-      <li><a href="http://css.developpez.com/cours/" target="_blank">css.developpez.com/cours/</a></li>
-      <li><a href="http://duckduckgo.com/" target="_blank">Votre moteur de recherche préféré</a></li>
-    </ul>
     
   <h4>Pour allez plus loin</h4>
     <ul>
@@ -118,8 +108,21 @@
       <li>xml</li>
     </ul>
     
-  <h4>Auteurs</h4>
-    <p>Walid BENGHARIT, Clément SIPIETER</p>
+  <h4>Ressources diverses</h4>
+    <ul>
+      <li><a href="http://fr.wikiversity.org/wiki/HTML" target="_blank">Wikiversité</a></li>
+      <li><a href="http://www.siteduzero.com/tutoriel-3-13666-apprenez-a-creer-votre-site-web-avec-html5-et-css3.html" target="_blank">www.siteduzero.com</a></li>
+      <li><a href="http://www.w3schools.com/" target="_blank">www.w3schools.com</a></li>
+      <li><a href="http://xhtml.developpez.com/cours/" target="_blank">xhtml.developpez.com/cours/</a></li>
+      <li><a href="http://css.developpez.com/cours/" target="_blank">css.developpez.com/cours/</a></li>
+      <li><a href="http://duckduckgo.com/" target="_blank">Votre moteur de recherche préféré</a></li>
+    </ul>
+    
+  <h4>Informations</h4>
+    <p>
+      <strong>Auteurs : </strong>Walid BENGHARIT, Clément SIPIETER<br/>
+      <strong>Source du cours : </strong> <a href="https://github.com/sipi/glin102_teaching/" >https://github.com/sipi/glin102_teaching/</a><br/>
+    </p>
     
   <script type="text/javascript">
     var elements = document.getElementsByClassName("aid");
