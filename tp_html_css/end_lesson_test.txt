@@ -1,0 +1,17 @@
+
+   Nom :
+Prénom :
+
+1 - Pouvez vous définir l'HTML ?
+
+
+2 - Pouvez vous définir le CSS ?
+
+
+3 - En HTML, comment fait on un lien vers une autre page web ?
+
+
+4 - Avec quelles balises HTML peut-on faire un titre ? mettre du texte en emphase ?
+
+
+5 - À quoi correspondent les sections HEAD et BODY d'un document HTML ?
