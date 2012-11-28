@@ -1,4 +1,31 @@
 
+h4
+{
+  width:100%;
+  border-bottom: 1px solid gray;
+}
+
+
+p
+{
+  text-align: justify;
+} 
+
+img
+{
+  display: block;
+  margin: 0 auto;
+}
+
+span.cite_source
+{
+  display: block;
+  margin-right:2em;
+  text-align: right;
+  font-style: italic;
+  color: gray;
+}
+
 div.aid
 {
     padding: 0.2em;
@@ -6,10 +33,23 @@ div.aid
     border: 1px dashed blacK;
 }
 
-
-a.view_aid:before
+span.view_aid:hover
 {
-    content: " help?";
+  cursor:  pointer;
+  text-decoration: underline;
+}
+
+span.view_aid:before
+{
+  content: " ";
+}
+
+span.view_aid
+{
     font-style: italic;
     color: red;
 }
+
+
+table.wikitable th,table.wikitable td{padding:0.3em}.wikitable th[scope=row]{text-align:left}table.gauche,table.left{float:left;margin:0 1em 1em 0}table.droite,table.right{float:right;margin:0 0 1em 1em}table.centre,table.center{margin:1em auto}table.wikitable[align=center]{margin:1em auto}
+
