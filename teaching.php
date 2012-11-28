@@ -122,6 +122,7 @@
     <p>
       <strong>Auteurs : </strong>Walid BENGHARIT, Clément SIPIETER<br/>
       <strong>Source du cours : </strong> <a href="https://github.com/sipi/glin102_teaching/" >https://github.com/sipi/glin102_teaching/</a><br/>
+      <strong>Licence : </strong> <a href="http://www.gnu.org/licenses/fdl-1.3-standalone.html" >GNU Free Documentation License</a>
     </p>
     
   <script type="text/javascript">
