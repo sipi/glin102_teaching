@@ -1,0 +1,15 @@
+
+div.aid
+{
+    padding: 0.2em;
+    background-color: lightgray;
+    border: 1px dashed blacK;
+}
+
+
+a.view_aid:before
+{
+    content: " help?";
+    font-style: italic;
+    color: red;
+}
