@@ -30,7 +30,7 @@
   <div class="legend" >Structure d'un document HTML [Wikipedia 2012]</div>
 
   
-  <h4>Les outils</h4>
+  <h4>Les outils nécessaires</h4>
 
     <ul>
       <li>
@@ -41,7 +41,7 @@
         </div>
       </li>
       <li>
-        Un éditeur de texte : kate (emacs, vim pour les fanatiques)
+        Un éditeur de texte : gedit, kate, notepad++, bluefish (emacs, vim pour les fanatiques)<br/>
         <span onClick="toggle_aid('aid_traitement_texte')" class="view_aid" href="">
           Attention, un éditeur de texte n'est pas un traitement de texte
         </span>
@@ -83,21 +83,23 @@
     clique droit sur une page web -&gt; Afficher le code source de la page
   </div>
   
+  <ul>
+   <li>
+      Associer un fichier css à votre site web 
+      <span onClick="toggle_aid('aid_link_css')" class="view_aid" href="">help?</span>
+      <div id="aid_link_css" class="aid"> 
+        Vous devrez inserer une balise <a href="http://www.w3schools.com/tags/tag_link.asp">link</a> dans l'entête de votre page web. <br/>
+        Vous pouvez utiliser <a href="../downloads/style.css" >ce fichier css d'exemple</a>.
+      </div>
+    </li>
+    <li>Utiliser les attributs css suivants : <em>color, font, text-align, margin, background-image, float, etc…</em></li>
+  </ul>
   
-  <h4>Dans un deuxième temps</h4>
+  <h5>Dans un deuxième temps</h5>
     
     <ul>
-      <li>
-        Associer un fichier css à votre site web 
-        <span onClick="toggle_aid('aid_link_css')" class="view_aid" href="">help?</span>
-        <div id="aid_link_css" class="aid"> 
-          Inserer la balise suivante dans l'entête de votre page web. <br/>
-          &lt;link rel="stylesheet" type="text/css" href="style.css" /&gt; <br/>
-          Vous pouvez utiliser <a href="../downloads/style.css" >ce fichier css d'exemple</a>.
-        </div>
-      </li>
-      <li>Regarder les attributs css suivants : <em>color, font, text-align, margin, background-image, float, etc…</em></li>
-      <li>Regarder les attributs id et class des balises html et comment y faire référence depuis un fichier css
+      
+      <li>Utiliser les attributs id et class des balises html et y faire référence depuis un fichier css
       <span onClick="toggle_aid('aid_id_class')" class="view_aid" href="">help?</span>
         <div id="aid_id_class" class="aid"> 
           <ul>
@@ -106,29 +108,11 @@
           </ul>
         </div>
       </li> 
+      <li>Comprendre la sépartion du fond (HTML) et de la forme (CSS) <!-- @todo link needed --></li>
       <li>Utilisation de Open Office pour créer des pages Web</li>
     </ul>
-  
-  
-  <h4>Best practices</h4>
     
-    <ul>
-      <li><a href="http://net.tutsplus.com/tutorials/html-css-techniques/30-html-best-practices-for-beginners/" target="_blank">30 HTML Best Practices for Beginners</a></li>
-      <li><a href="http://fr.wikipedia.org/wiki/Style_d%27indentation" target="_blank">Indenter</a> votre code</li>
-      <li>Sépartion fond (HTML) / forme (CSS) <!-- @todo link needed --></li>
-    </ul>
-    
-    
-  <h4>Pour allez plus loin</h4>
-    
-    <ul>
-      <li>javascript</li>
-      <li>HTML5/css3</li>
-      <li>php/mysql</li>
-      <li>xml</li>
-    </ul>
-    
-  <h4>Ressources diverses</h4>
+  <h4>Ressources utiles</h4>
     
     <ul>
       <li><a href="http://fr.wikiversity.org/wiki/HTML" target="_blank">Wikiversité</a></li>
@@ -140,11 +124,23 @@
     </ul>
     
     
+  <h4>Pour allez plus loin</h4>
+    
+    <ul>
+      <li><a href="http://net.tutsplus.com/tutorials/html-css-techniques/30-html-best-practices-for-beginners/" target="_blank">30 HTML Best Practices for Beginners</a></li>
+      <li>Comment <a href="http://fr.wikipedia.org/wiki/Style_d%27indentation" target="_blank">indenter</a> votre code</li>    
+      <li>javascript</li>
+      <li>HTML5/CSS3</li>
+      <li>php/mysql</li>
+      <li>xml</li>
+    </ul>
+    
+    
   <h4>Informations</h4>
     
     <p>
       <strong>Auteurs : </strong>Walid BENGHARIT, Clément SIPIETER<br/>
-      <strong>Source du cours : </strong> <a href="https://github.com/sipi/glin102_teaching/" >https://github.com/sipi/glin102_teaching/</a><br/>
+      <strong>Sources du cours : </strong> <a href="https://github.com/sipi/glin102_teaching/" >https://github.com/sipi/glin102_teaching/</a><br/>
       <strong>Licence : </strong> <a href="http://www.gnu.org/licenses/fdl-1.3-standalone.html" >GNU Free Documentation License</a>
     </p>
     
